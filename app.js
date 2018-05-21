@@ -1,4 +1,4 @@
-new Vue({
+var vm = new Vue({
     el: '#app',
     data: {
         playerHealth: 100,
@@ -7,8 +7,6 @@ new Vue({
         specialCount: 3,
         healCount: 2,
         turns: [],
-        // damageToPlayer = 0,
-        // damageToMonster = 0,
     },
     methods: {
         startGame: function() {
